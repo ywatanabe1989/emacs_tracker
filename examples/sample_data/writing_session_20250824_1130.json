@@ -1,0 +1,333 @@
+{
+  "session_metadata": {
+    "session_id": "writing_session_20250824_1130", 
+    "session_start": "2025-08-24T11:30:00.000000",
+    "session_duration_minutes": 25.8,
+    "total_interactions": 89,
+    "user_id": "anonymous_writer",
+    "emacs_version": "29.1",
+    "environment": {
+      "display": {
+        "resolution": "2560x1440",
+        "dpi": 144,
+        "scale_factor": 1.25
+      },
+      "emacs": {
+        "font_family": "Georgia",
+        "font_size": 14,
+        "frame_size": "90x40"
+      }
+    }
+  },
+  "tracked_sequence": [
+    {
+      "timestamp": "2025-08-24T11:30:05.123456",
+      "sequence_position": 1,
+      "buffer": {
+        "name": "research_paper.org",
+        "file": "/home/ywatanabe/documents/research/research_paper.org",
+        "mode": "org-mode",
+        "modified": false,
+        "size": 8945,
+        "hash": "sha256:1a2b3c4d5e6f789012345678901234567890abcd",
+        "last_modified": "2025-08-24T10:45:22"
+      },
+      "cursor": {
+        "position": 4567,
+        "line": 156,
+        "column": 0,
+        "moved_from": {"line": 1, "column": 0},
+        "movement_distance": 4567
+      },
+      "commands": {
+        "last_command": "goto-line",
+        "this_command": "org-cycle"
+      },
+      "environment": {
+        "window_count": 1,
+        "focused_duration": 45.2
+      },
+      "org_context": {
+        "current_heading": "* 3. Methodology",
+        "heading_level": 1,
+        "todo_state": null,
+        "tags": ["research", "methodology"],
+        "outline_path": ["Introduction", "Literature Review", "Methodology"],
+        "folded_sections": 2
+      },
+      "changes": {
+        "since_last": {
+          "time_elapsed": 0.0,
+          "cursor_moved": 0,
+          "commands_executed": 0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-24T11:30:25.456789",
+      "sequence_position": 2,
+      "buffer": {
+        "name": "research_paper.org",
+        "file": "/home/ywatanabe/documents/research/research_paper.org",
+        "mode": "org-mode", 
+        "modified": true,
+        "size": 9156,
+        "hash": "sha256:2b3c4d5e6f789012345678901234567890abcdef",
+        "last_modified": "2025-08-24T11:30:25"
+      },
+      "cursor": {
+        "position": 4778,
+        "line": 158,
+        "column": 67,
+        "moved_from": {"line": 156, "column": 0},
+        "movement_distance": 211
+      },
+      "commands": {
+        "last_command": "self-insert-command",
+        "this_command": "org-return"
+      },
+      "environment": {
+        "window_count": 1,
+        "focused_duration": 65.4
+      },
+      "org_context": {
+        "current_heading": "* 3. Methodology",
+        "heading_level": 1,
+        "todo_state": null,
+        "tags": ["research", "methodology"],
+        "outline_path": ["Introduction", "Literature Review", "Methodology"],
+        "folded_sections": 2
+      },
+      "changes": {
+        "content_diff": {
+          "lines_added": 2,
+          "lines_removed": 0,
+          "chars_added": 211,
+          "chars_removed": 0,
+          "edit_distance": 211,
+          "diff_snippet": "@@ -156,0 +158,2 @@\n** 3.1 Data Collection\n\nThe data collection process involved gathering patterns from multiple sources including user interaction logs, system metrics, and contextual information. This multi-modal approach ensures comprehensive coverage of user activities.\n"
+        },
+        "since_last": {
+          "time_elapsed": 20.3,
+          "cursor_moved": 211,
+          "commands_executed": 215
+        },
+        "file_changes": {
+          "hash_changed": true,
+          "size_delta": 211,
+          "timestamp_delta": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-24T11:32:15.789012",
+      "sequence_position": 3,
+      "buffer": {
+        "name": "references.bib",
+        "file": "/home/ywatanabe/documents/research/references.bib",
+        "mode": "bibtex-mode",
+        "modified": false,
+        "size": 12456,
+        "hash": "sha256:3c4d5e6f789012345678901234567890abcdef12",
+        "last_modified": "2025-08-24T09:15:33"
+      },
+      "cursor": {
+        "position": 8965,
+        "line": 245,
+        "column": 12,
+        "moved_from": {"line": 158, "column": 67},
+        "movement_distance": 4187
+      },
+      "commands": {
+        "last_command": "switch-to-buffer", 
+        "this_command": "bibtex-entry-forward"
+      },
+      "environment": {
+        "window_count": 2,
+        "focused_duration": 1.2
+      },
+      "bibtex_context": {
+        "current_entry_type": "@article",
+        "entry_key": "smith2023tracked",
+        "required_fields": ["author", "title", "journal", "year"],
+        "optional_fields": ["volume", "pages", "doi"],
+        "completion_status": "complete"
+      },
+      "changes": {
+        "tracked_changes": {
+          "reference_lookup": true,
+          "academic_workflow": true,
+          "window_split": true
+        },
+        "since_last": {
+          "time_elapsed": 110.3,
+          "cursor_moved": 4187,
+          "commands_executed": 35
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-24T11:33:45.234567",
+      "sequence_position": 4,
+      "buffer": {
+        "name": "figures/workflow_diagram.svg",
+        "file": "/home/ywatanabe/documents/research/figures/workflow_diagram.svg",
+        "mode": "image-mode",
+        "modified": false,
+        "size": 245760,
+        "hash": "sha256:4d5e6f789012345678901234567890abcdef123",
+        "last_modified": "2025-08-24T11:25:18"
+      },
+      "cursor": {
+        "position": 0,
+        "line": 1,
+        "column": 0,
+        "moved_from": {"line": 245, "column": 12},
+        "movement_distance": 0
+      },
+      "commands": {
+        "last_command": "find-file",
+        "this_command": "image-mode"
+      },
+      "environment": {
+        "window_count": 3,
+        "focused_duration": 0.5
+      },
+      "media_analysis": {
+        "file_type": "vector_image",
+        "properties": {
+          "format": "SVG",
+          "resolution": "800x600",
+          "vector_elements": 45,
+          "text_elements": 12,
+          "color_palette": "academic_professional",
+          "file_size_kb": 240,
+          "scalable": true
+        },
+        "quality_assessment": {
+          "type": "scientific_diagram",
+          "estimated_source": "academic_illustration",
+          "quality": "publication_ready"
+        }
+      },
+      "changes": {
+        "tracked_changes": {
+          "visual_content_review": true,
+          "document_illustration_context": true,
+          "academic_figure_inspection": true
+        },
+        "since_last": {
+          "time_elapsed": 90.2,
+          "cursor_moved": -8965,
+          "commands_executed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-24T11:35:20.567890",
+      "sequence_position": 5,
+      "buffer": {
+        "name": "research_paper.org",
+        "file": "/home/ywatanabe/documents/research/research_paper.org",
+        "mode": "org-mode",
+        "modified": true,
+        "size": 9567,
+        "hash": "sha256:5e6f789012345678901234567890abcdef1234",
+        "last_modified": "2025-08-24T11:35:20"
+      },
+      "cursor": {
+        "position": 5189,
+        "line": 170,
+        "column": 0,
+        "moved_from": {"line": 1, "column": 0},
+        "movement_distance": 5189
+      },
+      "commands": {
+        "last_command": "switch-to-buffer",
+        "this_command": "org-insert-link"
+      },
+      "environment": {
+        "window_count": 2,
+        "focused_duration": 5.8
+      },
+      "org_context": {
+        "current_heading": "* 4. Results",
+        "heading_level": 1,
+        "todo_state": null,
+        "tags": ["research", "results"],
+        "outline_path": ["Introduction", "Literature Review", "Methodology", "Results"],
+        "folded_sections": 1,
+        "link_context": {
+          "link_type": "file",
+          "target": "figures/workflow_diagram.svg",
+          "description": "Workflow Diagram"
+        }
+      },
+      "changes": {
+        "content_diff": {
+          "lines_added": 1,
+          "lines_removed": 0,
+          "chars_added": 89,
+          "chars_removed": 0,
+          "edit_distance": 89,
+          "diff_snippet": "@@ -170,0 +170,1 @@\n[[file:figures/workflow_diagram.svg][Workflow Diagram]]\n"
+        },
+        "tracked_changes": {
+          "figure_reference_insertion": true,
+          "cross_document_linking": true,
+          "academic_formatting": true
+        },
+        "since_last": {
+          "time_elapsed": 95.3,
+          "cursor_moved": 5189,
+          "commands_executed": 25
+        },
+        "file_changes": {
+          "hash_changed": true,
+          "size_delta": 89,
+          "timestamp_delta": 0.0
+        }
+      }
+    }
+  ],
+  "session_summary": {
+    "productivity_metrics": {
+      "total_files_accessed": 3,
+      "file_types": ["org", "bibtex", "svg"],
+      "words_written": 45,
+      "characters_typed": 300,
+      "buffer_switches": 4,
+      "average_focus_duration": 23.6,
+      "multitasking_intensity": "medium",
+      "context_switches_per_minute": 9.3,
+      "academic_references_accessed": 1,
+      "figures_reviewed": 1
+    },
+    "tracked_patterns": {
+      "primary_activity": "academic_writing",
+      "secondary_activities": ["reference_management", "figure_integration", "document_structure"],
+      "workflow_style": "structured_academic_writing",
+      "focus_areas": ["methodology_section", "results_presentation", "citation_management"],
+      "productivity_indicators": {
+        "deep_work_periods": 3,
+        "context_switching_frequency": "moderate",
+        "writing_flow_efficiency": 0.85,
+        "research_integration": "high"
+      }
+    },
+    "academic_context": {
+      "document_type": "research_paper",
+      "writing_stage": "methodology_and_results",
+      "structure_elements": ["headings", "references", "figures"],
+      "collaboration_indicators": ["shared_references", "standardized_formatting"],
+      "publication_readiness": "draft_stage"
+    },
+    "org_mode_usage": {
+      "outline_navigation": "frequent",
+      "structure_manipulation": "moderate", 
+      "link_creation": "active",
+      "todo_management": "minimal",
+      "export_preparation": "pending"
+    }
+  }
+}

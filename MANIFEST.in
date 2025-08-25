@@ -1,0 +1,18 @@
+# Include package metadata
+include README.md
+include CLAUDE.md
+include requirements.txt
+include run_tests.sh
+include MANIFEST.in
+
+# Include documentation
+recursive-include docs *
+
+# Include tests
+recursive-include tests *
+
+# Exclude unnecessary files
+global-exclude *.pyc
+global-exclude __pycache__/
+global-exclude .DS_Store
+global-exclude .git*

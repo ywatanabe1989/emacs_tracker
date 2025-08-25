@@ -1,0 +1,351 @@
+{
+  "session_metadata": {
+    "session_id": "coding_session_20250824_1147",
+    "session_start": "2025-08-24T11:47:00.000000",
+    "session_duration_minutes": 45.3,
+    "total_interactions": 127,
+    "user_id": "anonymous_developer",
+    "emacs_version": "29.1",
+    "environment": {
+      "display": {
+        "resolution": "1920x1080",
+        "dpi": 96,
+        "scale_factor": 1.0
+      },
+      "emacs": {
+        "font_family": "Consolas",
+        "font_size": 12,
+        "frame_size": "120x35"
+      }
+    }
+  },
+  "tracked_sequence": [
+    {
+      "timestamp": "2025-08-24T11:47:15.123456",
+      "sequence_position": 1,
+      "buffer": {
+        "name": "main.py",
+        "file": "/home/ywatanabe/proj/ml_project/main.py",
+        "mode": "python-mode",
+        "modified": false,
+        "size": 2847,
+        "hash": "sha256:a1b2c3d4e5f6789012345678901234567890abcdef",
+        "last_modified": "2025-08-24T11:45:30"
+      },
+      "cursor": {
+        "position": 1245,
+        "line": 45,
+        "column": 8,
+        "moved_from": {"line": 42, "column": 0},
+        "movement_distance": 85
+      },
+      "commands": {
+        "last_command": "forward-line",
+        "this_command": "move-end-of-line"
+      },
+      "environment": {
+        "window_count": 2,
+        "focused_duration": 12.3
+      },
+      "changes": {
+        "since_last": {
+          "time_elapsed": 0.0,
+          "cursor_moved": 0,
+          "commands_executed": 0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-24T11:47:18.456789",
+      "sequence_position": 2,
+      "buffer": {
+        "name": "main.py",
+        "file": "/home/ywatanabe/proj/ml_project/main.py", 
+        "mode": "python-mode",
+        "modified": true,
+        "size": 2891,
+        "hash": "sha256:b2c3d4e5f6789012345678901234567890abcdef12",
+        "last_modified": "2025-08-24T11:47:18"
+      },
+      "cursor": {
+        "position": 1289,
+        "line": 45,
+        "column": 52,
+        "moved_from": {"line": 45, "column": 8},
+        "movement_distance": 44
+      },
+      "commands": {
+        "last_command": "self-insert-command",
+        "this_command": "self-insert-command"
+      },
+      "environment": {
+        "window_count": 2,
+        "focused_duration": 15.6
+      },
+      "changes": {
+        "content_diff": {
+          "lines_added": 0,
+          "lines_removed": 0, 
+          "chars_added": 44,
+          "chars_removed": 0,
+          "edit_distance": 44,
+          "diff_snippet": "@@ -45,8 +45,52 @@\n     def train_model(self, data):\n+        # Added logging functionality for debugging\n         model = LinearRegression()"
+        },
+        "since_last": {
+          "time_elapsed": 3.3,
+          "cursor_moved": 44,
+          "commands_executed": 44
+        },
+        "file_changes": {
+          "hash_changed": true,
+          "size_delta": 44,
+          "timestamp_delta": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-24T11:47:25.789012",
+      "sequence_position": 3,
+      "buffer": {
+        "name": "requirements.txt",
+        "file": "/home/ywatanabe/proj/ml_project/requirements.txt",
+        "mode": "text-mode",
+        "modified": false,
+        "size": 245,
+        "hash": "sha256:c3d4e5f6789012345678901234567890abcdef123",
+        "last_modified": "2025-08-24T11:30:15"
+      },
+      "cursor": {
+        "position": 123,
+        "line": 8,
+        "column": 0,
+        "moved_from": {"line": 45, "column": 52},
+        "movement_distance": 1800
+      },
+      "commands": {
+        "last_command": "switch-to-buffer",
+        "this_command": "beginning-of-line"
+      },
+      "environment": {
+        "window_count": 2,
+        "focused_duration": 0.5
+      },
+      "changes": {
+        "tracked_changes": {
+          "buffer_switch": true,
+          "previous_buffer": "main.py",
+          "focus_shift_reason": "dependency_check"
+        },
+        "since_last": {
+          "time_elapsed": 7.3,
+          "cursor_moved": 1800,
+          "commands_executed": 2
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-24T11:47:35.234567",
+      "sequence_position": 4,
+      "buffer": {
+        "name": "model_results.png",
+        "file": "/home/ywatanabe/proj/ml_project/outputs/model_results.png",
+        "mode": "image-mode",
+        "modified": false,
+        "size": 1048576,
+        "hash": "sha256:d4e5f6789012345678901234567890abcdef1234",
+        "last_modified": "2025-08-24T11:42:18"
+      },
+      "cursor": {
+        "position": 0,
+        "line": 1,
+        "column": 0,
+        "moved_from": {"line": 8, "column": 0},
+        "movement_distance": 0
+      },
+      "commands": {
+        "last_command": "find-file",
+        "this_command": "image-mode"
+      },
+      "environment": {
+        "window_count": 3,
+        "focused_duration": 0.1
+      },
+      "media_analysis": {
+        "file_type": "image",
+        "properties": {
+          "resolution": "1280x720",
+          "dpi_x": 72,
+          "dpi_y": 72,
+          "color_depth": "24-bit",
+          "format": "PNG",
+          "compression": "lossless",
+          "megapixels": 0.9,
+          "aspect_ratio": "16:9",
+          "file_size_mb": 1.0
+        },
+        "quality_assessment": {
+          "type": "data_visualization",
+          "estimated_source": "matplotlib",
+          "quality": "web_optimized"
+        }
+      },
+      "changes": {
+        "tracked_changes": {
+          "content_type_switch": "text_to_image",
+          "window_split": true,
+          "multitasking_pattern": "code_review_visualization"
+        },
+        "since_last": {
+          "time_elapsed": 9.4,
+          "cursor_moved": 0,
+          "commands_executed": 2
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-24T11:47:42.567890",
+      "sequence_position": 5,
+      "buffer": {
+        "name": "dataset.csv",
+        "file": "/home/ywatanabe/proj/ml_project/data/dataset.csv",
+        "mode": "csv-mode",
+        "modified": false,
+        "size": 15728640,
+        "hash": "sha256:e5f6789012345678901234567890abcdef12345",
+        "last_modified": "2025-08-24T10:15:22"
+      },
+      "cursor": {
+        "position": 1567,
+        "line": 42,
+        "column": 15,
+        "moved_from": {"line": 1, "column": 0},
+        "movement_distance": 1567
+      },
+      "commands": {
+        "last_command": "find-file",
+        "this_command": "csv-nav-forward"
+      },
+      "environment": {
+        "window_count": 3,
+        "focused_duration": 0.2
+      },
+      "data_analysis": {
+        "file_type": "structured_data",
+        "properties": {
+          "format": "CSV",
+          "estimated_rows": 50000,
+          "estimated_columns": 25,
+          "file_size_mb": 15.0,
+          "delimiter": ",",
+          "header_present": true,
+          "encoding": "utf-8"
+        },
+        "content_preview": {
+          "columns": ["id", "timestamp", "feature_1", "feature_2", "target"],
+          "data_types": ["int", "datetime", "float", "float", "bool"],
+          "sample_analysis": "large_dataset_exploration"
+        }
+      },
+      "changes": {
+        "tracked_changes": {
+          "large_file_access": true,
+          "data_exploration_mode": true,
+          "performance_impact": "high_memory_usage"
+        },
+        "since_last": {
+          "time_elapsed": 7.3,
+          "cursor_moved": 1567,
+          "commands_executed": 45
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-24T11:48:15.123456",
+      "sequence_position": 6,
+      "buffer": {
+        "name": "training_audio.wav",
+        "file": "/home/ywatanabe/proj/ml_project/audio_samples/training_audio.wav",
+        "mode": "fundamental-mode",
+        "modified": false,
+        "size": 52428800,
+        "hash": "sha256:f6789012345678901234567890abcdef123456",
+        "last_modified": "2025-08-24T09:30:45"
+      },
+      "cursor": {
+        "position": 0,
+        "line": 1,
+        "column": 0,
+        "moved_from": {"line": 42, "column": 15},
+        "movement_distance": 0
+      },
+      "commands": {
+        "last_command": "find-file",
+        "this_command": "hexl-mode"
+      },
+      "environment": {
+        "window_count": 4,
+        "focused_duration": 0.1
+      },
+      "media_analysis": {
+        "file_type": "audio",
+        "properties": {
+          "sample_rate": "44100Hz",
+          "bit_depth": "16-bit",
+          "channels": 2,
+          "duration": 180.5,
+          "format": "WAV",
+          "codec": "PCM",
+          "bitrate": "1411kbps",
+          "file_size_mb": 50.0
+        },
+        "quality_assessment": {
+          "type": "high_quality_audio",
+          "estimated_source": "studio_recording",
+          "quality": "lossless_cd_quality"
+        }
+      },
+      "changes": {
+        "tracked_changes": {
+          "multimedia_context_switch": true,
+          "binary_file_inspection": true,
+          "workflow_complexity_increase": true
+        },
+        "since_last": {
+          "time_elapsed": 32.6,
+          "cursor_moved": -1567,
+          "commands_executed": 8
+        }
+      }
+    }
+  ],
+  "session_summary": {
+    "productivity_metrics": {
+      "total_files_accessed": 5,
+      "file_types": ["python", "text", "image", "csv", "audio"],
+      "lines_of_code_written": 3,
+      "characters_typed": 44,
+      "buffer_switches": 5,
+      "average_focus_duration": 4.8,
+      "multitasking_intensity": "high",
+      "context_switches_per_minute": 6.7
+    },
+    "tracked_patterns": {
+      "primary_activity": "code_development_with_data_analysis",
+      "secondary_activities": ["data_exploration", "result_visualization", "multimedia_inspection"],
+      "workflow_style": "exploratory_development",
+      "focus_areas": ["python_coding", "data_science", "multimedia_processing"],
+      "productivity_indicators": {
+        "deep_work_periods": 2,
+        "context_switching_frequency": "high",
+        "file_navigation_efficiency": 0.75
+      }
+    },
+    "technical_context": {
+      "project_type": "machine_learning",
+      "languages_used": ["python"],
+      "data_formats": ["csv", "png", "wav"],
+      "tools_integration": ["matplotlib", "pandas", "audio_processing"],
+      "complexity_level": "advanced_data_science"
+    }
+  }
+}
